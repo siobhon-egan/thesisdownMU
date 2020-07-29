@@ -7,6 +7,8 @@ Under the hood, the Reed College LaTeX template.
 
 To compile PDF documents using **R**, you are going to need to have LaTeX installed. It can be downloaded for Windows at http://http://miktex.org/download and for Mac at http://tug.org/mactex/mactex-download.html. Follow the instructions to install the necessary packages after downloading the (somewhat large) installer files. You may need to install a few extra LaTeX packages on your first attempt to knit as well.
 
+To view an example output of the PDF document see [here](https://github.com/siobhon-egan/thesisdownMU/blob/master/_book/thesis.pdf)
+
 ### Using thesisdowndmu from Siobhon Egan's GitHub
 
 1) Install the latest RStudio and rmarkdown.
@@ -23,7 +25,12 @@ remotes::install_github("ismayc/thesisdown")
 
 The easiest way to access and use this template is to download or clone this repo.
 
-This can be done by going to LINK and selecting the green `Code` button, and select `Download zip`.
+This can be done by going to https://github.com/siobhon-egan/thesisdownMU.git and selecting the green `Code` button, and select `Download zip`.
+
+Alternatively in the 'terminal window' within RStudio type the following
+```
+git clone https://github.com/siobhon-egan/thesisdownMU.git
+```
 
 Unzip the folder and open the `thesisdownMU.Rproj`.
 

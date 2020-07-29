@@ -11,37 +11,56 @@ To view an example output of the PDF document see [here](https://github.com/siob
 
 ### Using thesisdowndmu from Siobhon Egan's GitHub
 
-1) Install the latest RStudio and rmarkdown.
+**1) Install the latest RStudio**
 
-2) Install the **bookdown** and **thesisdown** packages:
+I cover detailed instruction on installing R and RStudio [here](https://siobhon-egan.github.io/bioinfo-phylo/rstudio-intro.html)
 
+
+**2) Install packages**
+
+Execute the following from the R console in RStudio.
+
+Install RMarkdown package
+```
+install.packages("rmarkdown")
+```
+
+You'll also need the **bookdown** and **thesisdown**
 ```
 if (!require("remotes")) install.packages("remotes", repos = "https://cran.rstudio.org")
 remotes::install_github("rstudio/bookdown")
 remotes::install_github("ismayc/thesisdown")
 ```
 
-3) Download or clone this repo
+**3) Download or clone this repo**
 
 The easiest way to access and use this template is to download or clone this repo.
 
-This can be done by going to https://github.com/siobhon-egan/thesisdownMU.git and selecting the green `Code` button, and select `Download zip`.
+This can be done by going to https://github.com/siobhon-egan/thesisdownMU and selecting the green `Code` button, and select `Download zip`.
+
+Unzip the folder and open the `thesisdownMU.Rproj`.
 
 Alternatively in the 'terminal window' within RStudio type the following
 ```
 git clone https://github.com/siobhon-egan/thesisdownMU.git
 ```
 
-Unzip the folder and open the `thesisdownMU.Rproj`.
+**4) Edit the `.Rmd` files**
 
-Files
+Start by opening the `index.Rmd` file and add in all the formalities (e.g. name, supervisor, degree etc).
+
+Note: **do not** change the name of the `index.Rmd` file.
+
+You can remove any sections that are relavent by simply commenting them out with a `#`.
+
+*Files*
 
 - Files ending in `.Rmd` are the ones you edit. Start with the `index.Rmd` file and work your way through the different chapters, for example `01-chap1.Rmd` for Literature review, `02-chap2.Rmd` for Materials and Methods section etc.
 - `reedthesis.cls` contains the structure and components that make up the thesis
 - `template.tex` contains the LaTeX template of the thesis document
 - `_bookdown.yml` outlines what files will be compiled into the final thesis document
 
-Directories
+*Directories*
 
 - `_book/` this is where the output documents will be stored.
 - `figure/` contains any images/figures that you wish to include.
@@ -50,14 +69,12 @@ Directories
 - `data/` folder to store any data you wish to use if run analysis or read data into your thesis document.
 
 
-4) Knit the `index.Rmd` file to get the book in PDF format.
+**5) Knit to PDF**
 
-*Note: do not change the name of the `index.Rmd` file.*
-
-Edit the `index.Rmd` file, you can remove any sections that are relavent by simply commenting them out with a `#`.
+By default the document knits to PDF format.
 
 If you want to knit the file to a different format (e.g. word or html), simply edit the `output:` section in the `index.Rmd` file.
-Note that this template has been optimised for PDF output and you may find formatting issues when knitting to other formats. I am trying to work on optimising this.
+However a word of caution is this template has been optimised for PDF output and you may find formatting issues when knitting to other formats. I am trying to work on optimising this.
 
 Default...knit to PDF
 ```
@@ -78,4 +95,6 @@ output:
 ```
 
 
-5) Edit the individual chapter R Markdown files as you wish and then re-run step (4) again.
+**6) Repeat!**
+
+Get writing and edit the individual chapter R Markdown files as you wish and then re-run step (5) again.

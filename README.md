@@ -98,3 +98,13 @@ output:
 **6) Repeat!**
 
 Get writing and edit the individual chapter R Markdown files as you wish and then re-run step (5) again.
+
+***
+
+Links to some good resources here:
+
+- [oxforddown](https://ulyngs.github.io/oxforddown/)
+- [Rmarkdown workshop](https://ulyngs.github.io/rmarkdown-workshop-2019/)
+- [R Markdown the definitive guide](https://bookdown.org/yihui/rmarkdown/)
+- [R for data science](https://r4ds.had.co.nz/)
+- 

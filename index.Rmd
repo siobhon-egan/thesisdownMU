@@ -1,7 +1,7 @@
 ---
 # This is a part of the Rmarkdown thesis template for Statistics at Macquarie University (MQ). 
 # Originally created by Thomas Fung & Justin Wishart (MQ) (04 June 2018). 
-# Edits by Siobhon Egan, Murdoch University (April 2020)
+# Edits by Siobhon Egan - modified for Murdoch University honours degree thesis (April 2020)
 author: 'Your Name'
 date: 'Novemeber' # just need the month. Year will be added automatically. 
 institution: 'Murdoch University' 
@@ -10,7 +10,7 @@ division: 'College of Science, Health and Engineering'
 # replace above with " " if this is not an examiner's copy
 department: 'Medical, Molecular and Forensic Sciences'
 degree_or_unit: 'degree' # or 'unit'
-degree_name_or_unit_no: 'Doctor of Philosophy' # or 'STAT825'
+degree_name_or_unit_no: 'Bachelor of Science Honours (Molecular Biology)' # or 'STAT825'
 notopenright: false #new chapter always opens on the right; to disable this, 
 #   set this to true
 title: 'Title'

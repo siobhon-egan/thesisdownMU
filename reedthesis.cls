@@ -11,6 +11,7 @@
 % 2004-2005 Ben Salzberg (BTS) a variety of tweaks here and in the template
 % 2015 Chester Ismay (CII) modified to create R Markdown template
 % 2018 Thomas Fung & Justin Wishart (MQ) modified for usage in Statistics, Macquarie University 
+% 2020 Siobhon Egan (Murdoch University) modified for usage as honours thesis, Murdoch University
 
 % Oddities:
 %

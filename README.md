@@ -1,15 +1,17 @@
-# thesisdown Murdoch University
+# thesisdown Murdoch University - honours thesis
 
 This template is a modified version of [thesisdowndmq from Thomas Fung's GitHub](https://github.com/thomas-fung/thesisdownmq).
 The thesisdownmq template is inspired by the packages [thesisdown](https://github.com/ismayc/thesisdown) and [bookdown](https://github.com/rstudio/bookdown).
+
+This template is particularly modified for usage as honours thesis (currently working on a PhD template). Please see Murdoch University documentation for specifics on thesis guidelines.
 
 Under the hood, the Reed College LaTeX template.
 
 To compile PDF documents using **R**, you are going to need to have LaTeX installed. It can be downloaded for Windows at http://http://miktex.org/download and for Mac at http://tug.org/mactex/mactex-download.html. Follow the instructions to install the necessary packages after downloading the (somewhat large) installer files. You may need to install a few extra LaTeX packages on your first attempt to knit as well.
 
-To view an example output of the PDF document see [here](https://github.com/siobhon-egan/thesisdownMU/blob/master/_book/thesis.pdf)
+To view an example output of the PDF document see [here](https://github.com/siobhon-egan/thesisdownMU-honours/blob/master/_book/thesis.pdf)
 
-### Using thesisdowndmu from Siobhon Egan's GitHub
+### Using thesisdowndmu (hons) from Siobhon Egan's GitHub
 
 **1) Install the latest RStudio**
 
@@ -36,13 +38,13 @@ remotes::install_github("ismayc/thesisdown")
 
 The easiest way to access and use this template is to download or clone this repo.
 
-This can be done by going to https://github.com/siobhon-egan/thesisdownMU and selecting the green `Code` button, and select `Download zip`.
+This can be done by going to https://github.com/siobhon-egan/thesisdownMU-honours.git and selecting the green `Code` button, and select `Download zip`.
 
 Unzip the folder and open the `thesisdownMU.Rproj`.
 
 Alternatively in the 'terminal window' within RStudio type the following
 ```
-git clone https://github.com/siobhon-egan/thesisdownMU.git
+git clone https://github.com/siobhon-egan/thesisdownMU-honours.git
 ```
 
 **4) Edit the `.Rmd` files**
